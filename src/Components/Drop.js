@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import '../styles/main.scss';
-import '../styles/checkbosx.scss';
+import '../styles/checkbox.scss';
 
 
 function Drop () {
@@ -22,6 +22,9 @@ function Drop () {
 
     const isChecked = (item) =>
     checked.includes(item) ? "checked-item" : "not-checked-item"; 
+
+
+    
     return(
         <div className="list-container">
                                <div>
@@ -35,7 +38,7 @@ function Drop () {
                                             </div>
                                         </div>
                                         <label class="toggle-control">
-                                            <input value={item} type="checkbox" onChange={handleCheck} />
+                                            <input  type="checkbox" value={item} onChange={handleCheck} />
                                             <span class="control"></span>
                                         </label>
                                         
