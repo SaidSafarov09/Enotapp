@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './fonts/schoolbookboldcyrillic.ttf';
+import './fonts/schoolbookbolditaliccyrillic.ttf';
+import './fonts/schoolbookcyrillic.ttf';
+import './fonts/schoolbookitaliccyrillic.ttf';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

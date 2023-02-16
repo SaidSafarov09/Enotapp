@@ -1,0 +1,121 @@
+
+  
+  .load {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .load_content {
+    display: flex;
+  }
+  
+  .logo {
+    width: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .loading {
+    font-size: 38px;
+    width: 100%;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .logo {
+      animation: App-logo-spin infinite 1s linear;
+    }
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  
+  .title ,.item , .image , .url, .date, .content_text{
+    display: flex;
+    width: 200px;
+  }
+  .news {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 500px;
+    box-sizing: border-box;
+  }
+  .main_content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 60px;
+  }
+  .url {
+    padding-top: 20px;
+  }
+  a {
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  
+//   @media (max-width: 1920px) {
+//     .news {
+//      padding: 0 350px;
+//     }
+//   }
+//   @media (max-width: 1750px) {
+//     .news {
+//      padding: 0 300px;
+//     }
+//   }
+//   @media (max-width: 1600px) {
+//     .news {
+//      padding: 0 200px;
+//     }
+//   }
+//   @media (max-width: 1400px) {
+//     .news {
+//      padding: 0 100px;
+//     }
+//   }
+//   @media (max-width: 1200px) {
+//     .news {
+//      padding: 0;
+//     }
+//   }
+//   @media (max-width: 1024px) {
+//     .news {
+//      padding: 0 50px;
+//     }
+//   }
+//   @media (max-width: 760px) {
+//     .news {
+//      padding: 0;
+//     }
+//   }
+//   @media (max-width: 660px) {
+//     .news {
+//       justify-content: center;
+//     }
+//     .logo {
+//       width: 30px;
+//       display: flex;
+//       justify-content: center;
+//     }
+    
+//     .loading {
+//       font-size: 20px;
+//       width: 100%;
+//     }
+//   }
+  
