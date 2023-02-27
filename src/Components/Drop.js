@@ -5,7 +5,7 @@ import '../styles/checkbox.scss';
 
 function Drop () {
 
-    const checkList1 = ['Visit']
+    const checkList1 = ['Visit David']
     const checkList2 = ['Goceries For Dinner']
     const checkList3 = ['Fix Dad`s iPad']
 
